@@ -1,0 +1,28 @@
+server:
+  port: 8080
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+    enabled-by-default: true
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          lowerCaseServiceId: true
+          enabled: true
+          predicates:
+            - name: Path
+              args:
+                pattern: "'/api/'+serviceId.toLowerCase()+'/**'"
+          filters:
+            - name: OrderedRewritePath
+              args:
+                regexp: "'/api/' + serviceId.toLowerCase() + '/(?<remaining>.*)'"
+                replacement: "{metadata.get('contextPath') != null ? metadata.get('contextPath') : ''} + '/${remaining}'"
