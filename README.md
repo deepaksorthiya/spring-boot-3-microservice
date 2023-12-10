@@ -13,7 +13,7 @@ Start Docker:
 docker compose up
 ```
 
-This will get a copy of the project installed locally. Open the project in your IDE and update `src/main/resources/application.properties` with the following key-value pairs:
+This will get a copy of the project installed locally. Open the project in your IDE and in **spring-cloud-configuration-service** update `src/main/resources/application.properties` with the following key-value pairs:
 
 ```properties
 server.port=8888
