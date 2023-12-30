@@ -27,6 +27,7 @@
         <module>department-service</module>
         <module>organization-service</module>
         <module>service-one</module>
+        <module>spring-boot-microservices</module>
     </modules>
 
     <dependencyManagement>
