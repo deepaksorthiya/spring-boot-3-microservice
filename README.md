@@ -29,3 +29,5 @@ Start All Services:
 ```bash
 mvn spring-boot:run
 ```
+
+import postman collection from `postman` folder to your postman application for testing APIs. 
