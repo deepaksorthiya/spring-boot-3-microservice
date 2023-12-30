@@ -7,24 +7,12 @@
         <artifactId>spring-boot-microservices</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
-    <artifactId>employee-service</artifactId>
+    <artifactId>service-one</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>employee-service</name>
-    <description>Spring Boot Employee Microservice</description>
+    <name>service-one</name>
+    <description>Microservice One</description>
 
     <dependencies>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>runtime</scope>
-        </dependency>
 
     </dependencies>
 

@@ -7,11 +7,10 @@
         <artifactId>spring-boot-microservices</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
-    <artifactId>employee-service</artifactId>
+    <artifactId>organization-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>employee-service</name>
-    <description>Spring Boot Employee Microservice</description>
+    <name>organization-service</name>
+    <description>Spring Boot Organization Microservice</description>
 
     <dependencies>
 

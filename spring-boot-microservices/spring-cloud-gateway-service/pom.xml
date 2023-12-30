@@ -7,23 +7,16 @@
         <artifactId>spring-boot-microservices</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
-    <artifactId>employee-service</artifactId>
+    <artifactId>spring-cloud-gateway-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>employee-service</name>
-    <description>Spring Boot Employee Microservice</description>
+    <name>spring-cloud-gateway-service</name>
+    <description>Spring Boot Cloud Api Gateway</description>
 
     <dependencies>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>runtime</scope>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
         </dependency>
 
     </dependencies>

@@ -22,10 +22,6 @@
     <modules>
         <module>spring-cloud-configuration-service</module>
         <module>spring-cloud-netflix-discovery-service</module>
-        <module>spring-cloud-gateway-service</module>
-        <module>department-service</module>
-        <module>organization-service</module>
-        <module>service-one</module>
         <module>spring-boot-microservices</module>
     </modules>
 

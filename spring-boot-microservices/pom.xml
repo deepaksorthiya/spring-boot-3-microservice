@@ -13,7 +13,11 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>spring-cloud-gateway-service</module>
+        <module>organization-service</module>
+        <module>department-service</module>
         <module>employee-service</module>
+        <module>service-one</module>
     </modules>
 
     <!-- Common dependencies for all services goes here -->
@@ -63,6 +67,12 @@
         <dependency>
             <groupId>io.github.openfeign</groupId>
             <artifactId>feign-micrometer</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
 
     </dependencies>
