@@ -6,9 +6,15 @@
         <artifactId>spring-boot-3-microservice</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+
     <artifactId>spring-boot-microservices</artifactId>
     <name>spring-boot-microservices</name>
+    <description>Spring Boot Common Microservice POM</description>
     <packaging>pom</packaging>
+
+    <modules>
+        <module>employee-service</module>
+    </modules>
 
     <!-- Common dependencies for all services goes here -->
     <dependencies>
