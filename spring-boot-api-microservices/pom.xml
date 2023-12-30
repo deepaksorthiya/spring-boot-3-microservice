@@ -7,7 +7,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>spring-boot-microservices</artifactId>
+    <artifactId>spring-boot-api-microservices</artifactId>
     <name>spring-boot-microservices</name>
     <description>Spring Boot Common Microservice POM</description>
     <packaging>pom</packaging>

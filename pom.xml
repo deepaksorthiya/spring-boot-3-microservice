@@ -22,7 +22,7 @@
     <modules>
         <module>spring-cloud-configuration-service</module>
         <module>spring-cloud-netflix-discovery-service</module>
-        <module>spring-boot-microservices</module>
+        <module>spring-boot-api-microservices</module>
     </modules>
 
     <dependencyManagement>

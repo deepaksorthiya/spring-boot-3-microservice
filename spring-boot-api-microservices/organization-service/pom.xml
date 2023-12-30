@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>spring-boot-microservices</artifactId>
+        <artifactId>spring-boot-api-microservices</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>department-service</artifactId>
+    <artifactId>organization-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>department-service</name>
-    <description>Spring Boot Department Microservice</description>
+    <name>organization-service</name>
+    <description>Spring Boot Organization Microservice</description>
 
     <dependencies>
 
