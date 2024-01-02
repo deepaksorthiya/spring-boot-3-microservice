@@ -24,8 +24,12 @@ The property `spring.cloud.config.server.native.search-locations` is the locatio
 
 Normally your configuration files would be stored in a remote location, for example, a GitHub repository or an Amazon S3 bucket. For instructions on how to store your config files in a git repository, see [this section in the Spring Cloud Config documentation](https://cloud.spring.io/spring-cloud-config/reference/html/#_git_backend). To keep this tutorial simple, you will use the "native" filesystem option above.
 
-Start All Services:
+Start All Services In Given Order
+1. spring-cloud-configuration-service
+2. spring-cloud-netflix-discovery-service
+3. spring-cloud-gateway-service
 
+After this start remaining microservices.
 ```bash
 mvn spring-boot:run
 ```
