@@ -22,7 +22,7 @@ spring:
               args:
                 pattern: "'/api/'+serviceId.toLowerCase()+'/**'"
           filters:
-            - name: OrderedRewritePath
+            - name: RewritePath
               args:
                 regexp: "'/api/' + serviceId.toLowerCase() + '/(?<remaining>.*)'"
                 replacement: "{metadata.get('contextPath') != null ? metadata.get('contextPath') : ''} + '/${remaining}'"
