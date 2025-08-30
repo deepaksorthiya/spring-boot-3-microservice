@@ -52,7 +52,7 @@ public class DepartmentController {
 
     @GetMapping("/organizations/{organizationId}/employees")
     public List<Department> findByOrganizationWithEmployees(@PathVariable("organizationId") Long organizationId) {
-        LOGGER.info("Department find: organizationId={}", organizationId);
+        LOGGER.info("Department-Employee find: organizationId={}", organizationId);
         List<Department> departments = departmentRepository.findByOrganization(organizationId);
         for (Department d : departments) {
             List<Employee> emps = employeeClient.findByDepartment(d.getId());
