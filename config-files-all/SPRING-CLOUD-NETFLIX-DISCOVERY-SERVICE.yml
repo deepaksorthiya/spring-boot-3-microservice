@@ -13,4 +13,5 @@ management:
     web:
       exposure:
         include: '*'
-    enabled-by-default: true
+    access:
+      default: unrestricted
